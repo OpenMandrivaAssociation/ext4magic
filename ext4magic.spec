@@ -10,6 +10,10 @@ Patch2: https://aur.archlinux.org/cgit/aur.git/plain/02-Fix-undefined-reference-
 Patch3: https://aur.archlinux.org/cgit/aur.git/plain/03-Fix-segfault-extent-free.patch?h=ext4magic-patch-extent-free#/03-Fix-segfault-extent-free.patch
 License: GPL
 Group: System
+BuildRequires: pkgconfig(ext2fs)
+BuildRequires: pkgconfig(blkid)
+BuildRequires: pkgconfig(e2p)
+BuildRequires: pkgconfig(uuid)
 
 %description
 Tool to recover deleted files from ext4 filesystems
