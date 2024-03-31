@@ -14,6 +14,8 @@ BuildRequires: pkgconfig(ext2fs)
 BuildRequires: pkgconfig(blkid)
 BuildRequires: pkgconfig(e2p)
 BuildRequires: pkgconfig(uuid)
+BuildRequires: pkgconfig(zlib)
+BuildRequires: pkgconfig(bzip2)
 
 %description
 Tool to recover deleted files from ext4 filesystems
